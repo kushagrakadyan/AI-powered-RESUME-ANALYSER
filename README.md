@@ -13,7 +13,7 @@ A full-stack resume analyzer with a React/Vite frontend, FastAPI backend, PDF/DO
 - Candidate detail extraction
 - Exportable text report
 - Responsive dashboard UI
-- Gemini API via backend environment variable or request header
+- Gemini API via backend environment variable or request header.
 
 ## Project structure
 ```text
