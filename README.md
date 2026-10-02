@@ -102,3 +102,5 @@ Optional header:
 - Set the deployed frontend's `VITE_API_URL` to the backend URL.
 - For production, replace `allow_origins=["*"]` with the exact frontend domain.
 - The current analyzer is stateless: uploaded resume contents are processed for the request and are not persisted by the application.
+
+
