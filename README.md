@@ -56,7 +56,7 @@ GEMINI_API_KEY=your_real_key
 ```
 
 Start API:
-```bash
+```bash 
 uvicorn main:app --reload --port 8000
 ```
 
@@ -77,7 +77,7 @@ If the backend is deployed somewhere else, create `frontend/.env`:
 VITE_API_URL=https://your-backend-domain.com
 ```
 Then restart Vite.
-
+ 
 ## 3. Production build
 ```bash
 cd frontend
@@ -90,7 +90,7 @@ npm run preview
 Returns API health and whether a backend Gemini key is configured.
 
 ### `POST /api/analyze`
-Multipart fields:
+Multipart fields: 
 - `file`: PDF, DOCX or TXT resume
 - `job_description`: optional text
 
