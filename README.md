@@ -407,6 +407,25 @@ To preview the production build locally:
 npm run preview
 ```
 
+## API
+### `GET /api/health`
+Returns API health and whether a backend Gemini key is configured.
+
+### `POST /api/analyze`
+Multipart fields:
+- `file`: PDF, DOCX or TXT resume
+- `job_description`: optional text
+
+Optional header:
+- `X-Gemini-API-Key`: Gemini key. Prefer configuring it server-side for production.
+
+## Deployment notes
+- Keep `GEMINI_API_KEY` on the server; do not commit `.env`.
+- Set the deployed frontend's `VITE_API_URL` to the backend URL.
+- For production, replace `allow_origins=["*"]` with the exact frontend domain.
+- The current analyzer is stateless: uploaded resume contents are processed for the request and are not persisted by the application.
+
+
 ---
 
 # ☁️ Deployment
