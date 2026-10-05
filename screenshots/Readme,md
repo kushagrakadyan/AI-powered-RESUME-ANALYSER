@@ -1,0 +1,17 @@
+ResuMate AI — AI-Powered Resume Analyzer
+
+A full-stack resume analyzer with a React/Vite frontend, FastAPI backend, PDF/DOCX/TXT parsing and structured Gemini analysis.
+
+Features
+
+Upload PDF, DOCX or TXT resumes (up to 8 MB)
+Optional job description matching
+ATS score (0–100)
+Skill matching, missing skills and upskilling areas
+Grammar/writing suggestions
+Prioritized improvement plan
+Tailored interview questions
+Candidate detail extraction
+Exportable text report
+Responsive dashboard UI
+Gemini API via backend environment variable or request header.
