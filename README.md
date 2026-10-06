@@ -8,7 +8,7 @@ The application extracts resume content from **PDF, DOCX, and TXT files**, analy
 
 ---
 
-## ✨ Features
+## ✨ Features 
 
 * 📄 **Multi-format Resume Upload**
 
