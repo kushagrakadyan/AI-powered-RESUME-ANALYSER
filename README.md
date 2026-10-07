@@ -15,7 +15,7 @@ The application extracts resume content from **PDF, DOCX, and TXT files**, analy
   * PDF
   * DOCX
   * TXT
-  * Maximum file size: **8 MB**
+  * Maximum file size: **8 MB** 
 
 * 🤖 **AI-Powered Resume Analysis**
 
