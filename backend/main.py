@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from services.parser import parse_resume
-from services.llm import analyze_resume
+from services.llm import analyze_resume 
 
 app = FastAPI(title="AI Resume Analyzer API")
 
