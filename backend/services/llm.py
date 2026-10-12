@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 class GrammarIssue(BaseModel):
     issue: str = Field(description="The grammar, spelling, or styling issue found")
     explanation: str = Field(description="Explanation of why it is an issue and how it impacts readability")
-    original_text: str = Field(description="The original sentence or phrase containing the issue")
+    original_text: str = Field(description="The original sentence or phrase containing the issue") 
     suggested_text: str = Field(description="The suggested correction or rephrasing")
     severity: Literal['High', 'Medium', 'Low'] = Field(description="Severity of the issue")
 
