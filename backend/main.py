@@ -10,7 +10,7 @@ load_dotenv()
 from services.parser import parse_resume
 from services.llm import analyze_resume 
 
-app = FastAPI(title="AI Resume Analyzer API")
+app = FastAPI(title="AI Resume Analyzer API")  
 
 # Configure CORS so our React frontend can query the API
 app.add_middleware(
