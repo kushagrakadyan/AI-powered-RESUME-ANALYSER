@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Load local environment variables from .env if present
 load_dotenv()
 
-from services.parser import parse_resume
+from services.parser import parse_resume 
 from services.llm import analyze_resume 
  
 app = FastAPI(title="AI Resume Analyzer API")  
