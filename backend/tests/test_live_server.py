@@ -9,7 +9,7 @@ def test_health():
     assert response.status_code == 200, f"Expected 200, got {response.status_code}"
     data = response.json()
     assert data["status"] == "healthy"
-    print("✓ Health check endpoint works!")
+    print("✓ Health check endpoint works!") 
     print(f"  Response: {data}\n")
 
 def test_unsupported_file():
